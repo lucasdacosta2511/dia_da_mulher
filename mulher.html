@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parabéns</title>
+    <style>
+        @font-face{
+            font-family:'Love';
+            src: url('dia_da_mulher/mylove/MyLove.otf') format(opentyoe), url(dia_da_mulher/mylove/MyLove.ttf) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            background-image: linear-gradient(to left, rgba(255, 255, 0, 0.438), rgb(255, 149, 166) );
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+                margin: 0;
+        }
+        h1{
+            font-family:'Love';
+            text-align: center ;
+            font-size: 4em;
+            text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
+            color: #c2185b;
+            letter-spacing:2px;
+            -webkit-text-stroke-width: 10px;
+            -webkit-text-stroke-color: rgba(77, 77, 77, 0.075);
+        }
+        .icone-animado {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+}
+        .icone::before {
+            content: url('winterflower-congratulations-1173_256.gif');
+            display:block;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Feliz dia da Mulher</h1>
+    <a href="texto.html"><button class="icone">Clique para ver mais</button></a>
+</body>
+</html>
